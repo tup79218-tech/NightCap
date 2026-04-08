@@ -1,9 +1,8 @@
 :root {
-  --bg: #07131f;
-  --bg-deep: #04101a;
-  --surface: rgba(11, 28, 43, 0.72);
-  --surface-strong: rgba(15, 35, 53, 0.92);
-  --surface-soft: rgba(237, 228, 214, 0.08);
+  --bg: #102235;
+  --bg-deep: #0b1b2b;
+  --surface: rgba(22, 43, 63, 0.78);
+  --surface-soft: rgba(237, 228, 214, 0.12);
   --text: #f7f1e8;
   --muted: #b7c4cd;
   --line: rgba(247, 241, 232, 0.12);
@@ -31,9 +30,9 @@ body {
   font-family: "Manrope", "Segoe UI", sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(240, 173, 110, 0.18), transparent 30%),
-    radial-gradient(circle at 85% 18%, rgba(140, 215, 194, 0.12), transparent 24%),
-    linear-gradient(180deg, #0a1725 0%, #08131d 40%, #050d15 100%);
+    radial-gradient(circle at top left, rgba(240, 173, 110, 0.24), transparent 34%),
+    radial-gradient(circle at 85% 18%, rgba(140, 215, 194, 0.18), transparent 28%),
+    linear-gradient(180deg, #17304a 0%, #11283d 42%, #0b1c2d 100%);
 }
 
 body::before,
